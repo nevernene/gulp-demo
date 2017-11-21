@@ -1,0 +1,3 @@
+# gulp-demo
+模仿gulp官网做的首页模板
+该模板用了bootstrap框架和应用了gulp组件里的less插件进行自动编译和刷新
