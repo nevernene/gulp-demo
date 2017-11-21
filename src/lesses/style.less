@@ -1,0 +1,62 @@
+@background-color: #cf4646;
+@font-color:#efefef;
+@hoverfont-color:#ffffff;
+@radiiu:0px;
+@color:#ccc;
+@bgcolor:#afb1b9;
+
+.navbar-default {
+  background-color: @background-color;
+  border-color: @background-color;
+  border-radius:@radiiu;
+  &:hover{
+    color: @hoverfont-color !important;
+  }
+}
+.icon-bar{
+  background-color: @hoverfont-color !important;
+}
+.navbar-brand{
+  color: @font-color !important;
+  &:hover{
+    color: @hoverfont-color !important;
+  }
+
+}
+.navbar-default .navbar-nav > li > a {
+  color:@font-color;
+  &:hover {
+    color: @hoverfont-color;
+  }
+}
+.jumbotron {
+  background-color: @background-color;
+  margin-top: -17px;
+  .img-responsive {
+    margin: auto;
+    position: relative;
+    top:4px;
+  }
+  .btn {
+    background-color: @background-color;
+    color: @color;
+    position: relative;
+    margin: auto;
+    top:-3px;
+    border-radius: 2px;
+    border: 2px solid @color;
+    &:hover {
+      background-color: @background-color;
+      color: @hoverfont-color;
+      border-color: @hoverfont-color;
+    }
+  }
+
+}
+.footer{
+  margin-top: 70px;
+  color: @bgcolor;
+  .container > p > a{
+    color: @bgcolor ;
+  }
+}

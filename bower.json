@@ -1,0 +1,21 @@
+{
+  "name": "day05_gulp",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Mis min <min@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "animate.css": "^3.5.2"
+  }
+}
